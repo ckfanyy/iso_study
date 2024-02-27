@@ -3,17 +3,21 @@
 #define mycount 123
 
 int main(void){
-    int a = 10;
-    int b = 20;
-    int c;
-    c = a + b;
-    NSLog(@"result = %d", c);
-    NSLog(@"result = %d", c += 10);
-    NSLog(@"result = %d", c += 10);
-    NSLog(@"result = %d", c -= 100);
-    NSLog(@"result = %d", c < b ? a : b);
-
-
-    return  0;
+   //while
+    int sum_even = 0;
+//    int sum_odd = 0;
+    int i = 100;
+    do {
+        i--;
+        if(i == 50){
+            NSLog(@"i = 50");
+            break;
+        }
+        NSLog(@"result: %d", i);
+    } while (i >= 0);
+    
+    
+    
+   return  0;
 }
 
