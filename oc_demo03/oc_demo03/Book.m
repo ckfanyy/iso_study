@@ -7,8 +7,6 @@
 
 #import "Book.h"
 
-
-
 @implementation Book
 
 - (instancetype)init{
