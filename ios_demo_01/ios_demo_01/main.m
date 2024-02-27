@@ -4,10 +4,16 @@
 
 int main(void){
     int a = 10;
-    a = 55;
-    const int COUNT = 100;
-    int count2 = a*COUNT*mycount;
-    NSLog(@"count2 = %d", count2);
-    return 0;
+    int b = 20;
+    int c;
+    c = a + b;
+    NSLog(@"result = %d", c);
+    NSLog(@"result = %d", c += 10);
+    NSLog(@"result = %d", c += 10);
+    NSLog(@"result = %d", c -= 100);
+    NSLog(@"result = %d", c < b ? a : b);
+
+
+    return  0;
 }
 
