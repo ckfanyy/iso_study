@@ -16,4 +16,9 @@
     }
     return self;
 }
+//回收构造函数：我被释放了
+-(void) dealloc{
+    NSLog(@"我是析构函数");
+}
 @end
+

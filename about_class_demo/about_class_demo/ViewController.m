@@ -16,9 +16,16 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    Person *person = [[Person init]init];
-    NSLog(@"person name = %d", person.name);
+    //构造
+    
+    //析构
+    [self test];
+    
 }
 
+-(void) test{
+    Person *person = [[Person alloc]init];
+    NSLog(@"person.name = %@", person.name);
+}
 
 @end
