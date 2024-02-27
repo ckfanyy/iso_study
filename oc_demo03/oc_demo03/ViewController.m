@@ -6,7 +6,7 @@
 //
 
 #import "ViewController.h"
-
+#include "Book.h"
 @interface ViewController ()
 
 @end
@@ -15,24 +15,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    //build class Person instance
-    self.person = [[Person alloc]init];
-    self.person.name = @"fanck";
-    self.person.sex = 1;
-    self.person.age = 100;
-    
-    Person *person2 = [[Person alloc]init];
-    person2.name = @"fanck";
-    person2.sex = 1;
-    person2.age = 100;
-    
-    NSMutableArray *array = [[NSMutableArray alloc]init];
-    [array addObject:self.person];
-    [array addObject:person2];
-    
-   
-    
-    
+    //
+    Book *fanbook = [[Book alloc]init];
+    fanbook.name=@"woyaofanfan";
+    fanbook.price = 18.99;
     
 }
 

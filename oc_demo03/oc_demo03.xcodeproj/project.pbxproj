@@ -20,6 +20,7 @@
 		041E16852B8D94B400AD272C /* MyClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 041E16842B8D94B400AD272C /* MyClass.m */; };
 		041E16882B8DAC3F00AD272C /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 041E16872B8DAC3F00AD272C /* Person.m */; };
 		041E168B2B8DAF6000AD272C /* MyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 041E168A2B8DAF6000AD272C /* MyView.m */; };
+		041E168E2B8DB0F600AD272C /* Book.m in Sources */ = {isa = PBXBuildFile; fileRef = 041E168D2B8DB0F600AD272C /* Book.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,8 @@
 		041E16872B8DAC3F00AD272C /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		041E16892B8DAF6000AD272C /* MyView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyView.h; sourceTree = "<group>"; };
 		041E168A2B8DAF6000AD272C /* MyView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyView.m; sourceTree = "<group>"; };
+		041E168C2B8DB0F600AD272C /* Book.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Book.h; sourceTree = "<group>"; };
+		041E168D2B8DB0F600AD272C /* Book.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Book.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +124,8 @@
 				041E16862B8DAC3F00AD272C /* Person.h */,
 				041E16872B8DAC3F00AD272C /* Person.m */,
 				041E16552B8D93CE00AD272C /* ViewController.m */,
+				041E168C2B8DB0F600AD272C /* Book.h */,
+				041E168D2B8DB0F600AD272C /* Book.m */,
 				041E16892B8DAF6000AD272C /* MyView.h */,
 				041E168A2B8DAF6000AD272C /* MyView.m */,
 				041E16832B8D94B400AD272C /* MyClass.h */,
@@ -285,6 +290,7 @@
 				041E16562B8D93CE00AD272C /* ViewController.m in Sources */,
 				041E16502B8D93CE00AD272C /* AppDelegate.m in Sources */,
 				041E16852B8D94B400AD272C /* MyClass.m in Sources */,
+				041E168E2B8DB0F600AD272C /* Book.m in Sources */,
 				041E16612B8D93D000AD272C /* main.m in Sources */,
 				041E16532B8D93CE00AD272C /* SceneDelegate.m in Sources */,
 				041E168B2B8DAF6000AD272C /* MyView.m in Sources */,
